@@ -1,0 +1,56 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=x86-64
+P NO FX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U main%b		main.adb		09e84831 OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D main.adb		20230826214414 a71c9d5c main%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [main standard 3 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|2r6 8r4 9r4 9r27 9r50 9r73 9r96 9r119 9r142 9r165 9r188
+. 9r211 9r234 9r257 9r280 9r303 9r326 9r349 9r372 9r395 9r418 9r441 9r464
+. 9r487 9r510 9r533 9r556 9r579 9r602 9r625 9r648 9r671 9r694 9r717 9r740
+. 9r763 9r786 9r809 9r832 9r855 9r878 9r901 9r924 9r947 9r970 9r993 9r1016
+. 9r1039 9r1062 9r1085 9r1108 9r1131 9r1154 9r1177 9r1200 9r1223
+X 7 a-textio.ads
+58K13*Text_IO 725e16 10|2w10 8r8 9r8 9r31 9r54 9r77 9r100 9r123 9r146 9r169
+. 9r192 9r215 9r238 9r261 9r284 9r307 9r330 9r353 9r376 9r399 9r422 9r445
+. 9r468 9r491 9r514 9r537 9r560 9r583 9r606 9r629 9r652 9r675 9r698 9r721
+. 9r744 9r767 9r790 9r813 9r836 9r859 9r882 9r905 9r928 9r951 9r974 9r997
+. 9r1020 9r1043 9r1066 9r1089 9r1112 9r1135 9r1158 9r1181 9r1204 9r1227
+463U14*Put 10|8s16 9s16 9s39 9s62 9s85 9s108 9s131 9s154 9s177 9s200 9s223
+. 9s246 9s269 9s292 9s315 9s338 9s361 9s384 9s407 9s430 9s453 9s476 9s499
+. 9s522 9s545 9s568 9s591 9s614 9s637 9s660 9s683 9s706 9s729 9s752 9s775
+. 9s798 9s821 9s844 9s867 9s890 9s913 9s936 9s959 9s982 9s1005 9s1028 9s1051
+. 9s1074 9s1097 9s1120 9s1143 9s1166 9s1189 9s1212 9s1235
+X 10 main.adb
+3U11*Main 3b11 12l5 12t9
+
